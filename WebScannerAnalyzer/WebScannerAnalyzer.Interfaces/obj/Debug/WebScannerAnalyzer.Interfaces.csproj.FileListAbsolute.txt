@@ -1,0 +1,7 @@
+E:\Sam\WebScannerAnalyzer\WebScannerAnalyzer.Interfaces\bin\Debug\WebScannerAnalyzer.Interfaces.dll
+E:\Sam\WebScannerAnalyzer\WebScannerAnalyzer.Interfaces\bin\Debug\WebScannerAnalyzer.Interfaces.pdb
+E:\Sam\WebScannerAnalyzer\WebScannerAnalyzer.Interfaces\bin\Debug\WebScannerAnalzyer.Entities.dll
+E:\Sam\WebScannerAnalyzer\WebScannerAnalyzer.Interfaces\bin\Debug\WebScannerAnalzyer.Entities.pdb
+E:\Sam\WebScannerAnalyzer\WebScannerAnalyzer.Interfaces\obj\Debug\WebScannerAnalyzer.Interfaces.csprojResolveAssemblyReference.cache
+E:\Sam\WebScannerAnalyzer\WebScannerAnalyzer.Interfaces\obj\Debug\WebScannerAnalyzer.Interfaces.dll
+E:\Sam\WebScannerAnalyzer\WebScannerAnalyzer.Interfaces\obj\Debug\WebScannerAnalyzer.Interfaces.pdb

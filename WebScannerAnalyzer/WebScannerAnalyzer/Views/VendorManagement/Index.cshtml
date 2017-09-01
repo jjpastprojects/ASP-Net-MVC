@@ -1,0 +1,47 @@
+﻿@{
+    ViewBag.Title = "Vendor Management";
+}
+
+@section Scripts
+{
+    <script src="@Url.Content("~/Scripts/vendor-management.js")"></script>
+}
+
+<div class="row">
+    <div class="input-group col-sm-3">
+        <input type="text" class="form-control" placeholder="Vendor Name" id="vendor_name"/>
+        <span class="input-group-btn">
+            <button id="search_button" class="btn btn-success">Search</button>
+        </span>
+    </div>
+</div>
+
+<div class="row">
+    <table id="vendor_search_result_table" class="table table-striped table-bordered" cellspacing="0" width="100%">
+        <thead>
+        <tr>
+            <th>Vendor ID</th>
+            <th>Vendor Name</th>
+            <th>Contact Person</th>
+            <th>Email</th>
+            <th>Days To Follow</th>
+            <th>Is Drop Shipper</th>
+            <th>Zip</th>
+            <th>Street Address</th>
+            <th>Optional Address</th>
+            <th>City</th>
+            <th>State</th>
+            <th>Country</th>
+            <th>Can Barcode</th>
+            <th>Free Freight Program</th>
+            <th>Discount Program</th>
+            <th>Will Use Amazon UPS Labels</th>
+            <th>Avg. Lead Time To Ship</th>
+            <th>Avg. Days In Transit</th>
+            <th>Avg. Days To Accept Goods</th>
+            <th>Total Days From Order To Sell</th>
+        </tr>
+        </thead>
+    </table>
+</div>
+

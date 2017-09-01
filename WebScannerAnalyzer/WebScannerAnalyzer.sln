@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebScannerAnalyzer.DataAccessLayer", "WebScannerAnalyzer.DataAccessLayer\WebScannerAnalyzer.DataAccessLayer.csproj", "{C5FBFC69-1352-463B-B66E-8721281A7F24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebScannerAnalyzer.BusinessLayer", "WebScannerAnalyzer.BusinessLayer\WebScannerAnalyzer.BusinessLayer.csproj", "{44A396E7-07DC-4E58-A16B-016C2CF6986B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebScannerAnalyzer.Entities", "WebScannerAnalyzer.Entities\WebScannerAnalyzer.Entities.csproj", "{C93D071B-6F53-4542-83C0-C4F6D89898E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebScannerAnalyzer.Interfaces", "WebScannerAnalyzer.Interfaces\WebScannerAnalyzer.Interfaces.csproj", "{D23CA379-5D0E-4F05-B460-4AE862CEA0AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAnalyzerScanner.Common", "WebAnalyzerScanner.Common\WebAnalyzerScanner.Common.csproj", "{A6DF1CEE-2BFA-4BC1-86AA-962255386301}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebScannerAnalyzer", "WebScannerAnalyzer\WebScannerAnalyzer.csproj", "{7E9DA080-EC14-4543-A702-E3257FD58FD1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5FBFC69-1352-463B-B66E-8721281A7F24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5FBFC69-1352-463B-B66E-8721281A7F24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5FBFC69-1352-463B-B66E-8721281A7F24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5FBFC69-1352-463B-B66E-8721281A7F24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44A396E7-07DC-4E58-A16B-016C2CF6986B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44A396E7-07DC-4E58-A16B-016C2CF6986B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44A396E7-07DC-4E58-A16B-016C2CF6986B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44A396E7-07DC-4E58-A16B-016C2CF6986B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C93D071B-6F53-4542-83C0-C4F6D89898E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C93D071B-6F53-4542-83C0-C4F6D89898E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C93D071B-6F53-4542-83C0-C4F6D89898E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C93D071B-6F53-4542-83C0-C4F6D89898E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D23CA379-5D0E-4F05-B460-4AE862CEA0AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D23CA379-5D0E-4F05-B460-4AE862CEA0AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D23CA379-5D0E-4F05-B460-4AE862CEA0AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D23CA379-5D0E-4F05-B460-4AE862CEA0AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6DF1CEE-2BFA-4BC1-86AA-962255386301}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6DF1CEE-2BFA-4BC1-86AA-962255386301}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6DF1CEE-2BFA-4BC1-86AA-962255386301}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6DF1CEE-2BFA-4BC1-86AA-962255386301}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E9DA080-EC14-4543-A702-E3257FD58FD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E9DA080-EC14-4543-A702-E3257FD58FD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E9DA080-EC14-4543-A702-E3257FD58FD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E9DA080-EC14-4543-A702-E3257FD58FD1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

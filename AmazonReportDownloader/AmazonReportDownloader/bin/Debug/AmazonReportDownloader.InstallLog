@@ -1,0 +1,76 @@
+﻿Installing assembly 'C:\Users\Abdelkarim\Dropbox\Odesk Projects\Gil Bar-Lev\AmazonReportDownloader\AmazonReportDownloader\bin\Debug\AmazonReportDownloader.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Abdelkarim\Dropbox\Odesk Projects\Gil Bar-Lev\AmazonReportDownloader\AmazonReportDownloader\bin\Debug\AmazonReportDownloader.InstallLog
+   assemblypath = C:\Users\Abdelkarim\Dropbox\Odesk Projects\Gil Bar-Lev\AmazonReportDownloader\AmazonReportDownloader\bin\Debug\AmazonReportDownloader.exe
+Installing service AmazonReportService...
+Service AmazonReportService has been successfully installed.
+Creating EventLog source AmazonReportService in log Application...
+Committing assembly 'C:\Users\Abdelkarim\Dropbox\Odesk Projects\Gil Bar-Lev\AmazonReportDownloader\AmazonReportDownloader\bin\Debug\AmazonReportDownloader.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Abdelkarim\Dropbox\Odesk Projects\Gil Bar-Lev\AmazonReportDownloader\AmazonReportDownloader\bin\Debug\AmazonReportDownloader.InstallLog
+   assemblypath = C:\Users\Abdelkarim\Dropbox\Odesk Projects\Gil Bar-Lev\AmazonReportDownloader\AmazonReportDownloader\bin\Debug\AmazonReportDownloader.exe
+Uninstalling assembly 'C:\Users\Abdelkarim\Dropbox\Odesk Projects\Gil Bar-Lev\AmazonReportDownloader\AmazonReportDownloader\bin\Debug\AmazonReportDownloader.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Abdelkarim\Dropbox\Odesk Projects\Gil Bar-Lev\AmazonReportDownloader\AmazonReportDownloader\bin\Debug\AmazonReportDownloader.InstallLog
+   assemblypath = C:\Users\Abdelkarim\Dropbox\Odesk Projects\Gil Bar-Lev\AmazonReportDownloader\AmazonReportDownloader\bin\Debug\AmazonReportDownloader.exe
+Removing EventLog source AmazonReportService.
+Service AmazonReportService is being removed from the system...
+Service AmazonReportService was successfully removed from the system.
+Installing assembly 'C:\Users\Abdelkarim\Dropbox\Odesk Projects\Gil Bar-Lev\AmazonReportDownloader\AmazonReportDownloader\bin\Debug\AmazonReportDownloader.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Abdelkarim\Dropbox\Odesk Projects\Gil Bar-Lev\AmazonReportDownloader\AmazonReportDownloader\bin\Debug\AmazonReportDownloader.InstallLog
+   assemblypath = C:\Users\Abdelkarim\Dropbox\Odesk Projects\Gil Bar-Lev\AmazonReportDownloader\AmazonReportDownloader\bin\Debug\AmazonReportDownloader.exe
+Installing service AmazonReportService...
+Service AmazonReportService has been successfully installed.
+Creating EventLog source AmazonReportService in log Application...
+Committing assembly 'C:\Users\Abdelkarim\Dropbox\Odesk Projects\Gil Bar-Lev\AmazonReportDownloader\AmazonReportDownloader\bin\Debug\AmazonReportDownloader.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Abdelkarim\Dropbox\Odesk Projects\Gil Bar-Lev\AmazonReportDownloader\AmazonReportDownloader\bin\Debug\AmazonReportDownloader.InstallLog
+   assemblypath = C:\Users\Abdelkarim\Dropbox\Odesk Projects\Gil Bar-Lev\AmazonReportDownloader\AmazonReportDownloader\bin\Debug\AmazonReportDownloader.exe
+Uninstalling assembly 'C:\Users\Abdelkarim\Dropbox\Odesk Projects\Gil Bar-Lev\AmazonReportDownloader\AmazonReportDownloader\bin\Debug\AmazonReportDownloader.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Abdelkarim\Dropbox\Odesk Projects\Gil Bar-Lev\AmazonReportDownloader\AmazonReportDownloader\bin\Debug\AmazonReportDownloader.InstallLog
+   assemblypath = C:\Users\Abdelkarim\Dropbox\Odesk Projects\Gil Bar-Lev\AmazonReportDownloader\AmazonReportDownloader\bin\Debug\AmazonReportDownloader.exe
+Removing EventLog source AmazonReportService.
+Service AmazonReportService is being removed from the system...
+Service AmazonReportService was successfully removed from the system.
+Installing assembly 'C:\Users\Abdelkarim\Dropbox\Odesk Projects\Gil Bar-Lev\AmazonReportDownloader\AmazonReportDownloader\bin\Debug\AmazonReportDownloader.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Abdelkarim\Dropbox\Odesk Projects\Gil Bar-Lev\AmazonReportDownloader\AmazonReportDownloader\bin\Debug\AmazonReportDownloader.InstallLog
+   assemblypath = C:\Users\Abdelkarim\Dropbox\Odesk Projects\Gil Bar-Lev\AmazonReportDownloader\AmazonReportDownloader\bin\Debug\AmazonReportDownloader.exe
+Installing service AmazonReportService...
+Service AmazonReportService has been successfully installed.
+Creating EventLog source AmazonReportService in log Application...
+Committing assembly 'C:\Users\Abdelkarim\Dropbox\Odesk Projects\Gil Bar-Lev\AmazonReportDownloader\AmazonReportDownloader\bin\Debug\AmazonReportDownloader.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Abdelkarim\Dropbox\Odesk Projects\Gil Bar-Lev\AmazonReportDownloader\AmazonReportDownloader\bin\Debug\AmazonReportDownloader.InstallLog
+   assemblypath = C:\Users\Abdelkarim\Dropbox\Odesk Projects\Gil Bar-Lev\AmazonReportDownloader\AmazonReportDownloader\bin\Debug\AmazonReportDownloader.exe
+Uninstalling assembly 'C:\Users\Abdelkarim\Dropbox\Odesk Projects\Gil Bar-Lev\AmazonReportDownloader\AmazonReportDownloader\bin\Debug\AmazonReportDownloader.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Abdelkarim\Dropbox\Odesk Projects\Gil Bar-Lev\AmazonReportDownloader\AmazonReportDownloader\bin\Debug\AmazonReportDownloader.InstallLog
+   assemblypath = C:\Users\Abdelkarim\Dropbox\Odesk Projects\Gil Bar-Lev\AmazonReportDownloader\AmazonReportDownloader\bin\Debug\AmazonReportDownloader.exe
+Removing EventLog source AmazonReportService.
+Service AmazonReportService is being removed from the system...
+Service AmazonReportService was successfully removed from the system.
+Installing assembly 'C:\Users\Abdelkarim\Dropbox\Odesk Projects\Gil Bar-Lev\AmazonReportDownloader\AmazonReportDownloader\bin\Debug\AmazonReportDownloader.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Abdelkarim\Dropbox\Odesk Projects\Gil Bar-Lev\AmazonReportDownloader\AmazonReportDownloader\bin\Debug\AmazonReportDownloader.InstallLog
+   assemblypath = C:\Users\Abdelkarim\Dropbox\Odesk Projects\Gil Bar-Lev\AmazonReportDownloader\AmazonReportDownloader\bin\Debug\AmazonReportDownloader.exe
+Installing service AmazonReportService...
+Service AmazonReportService has been successfully installed.
+Creating EventLog source AmazonReportService in log Application...
+Committing assembly 'C:\Users\Abdelkarim\Dropbox\Odesk Projects\Gil Bar-Lev\AmazonReportDownloader\AmazonReportDownloader\bin\Debug\AmazonReportDownloader.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Abdelkarim\Dropbox\Odesk Projects\Gil Bar-Lev\AmazonReportDownloader\AmazonReportDownloader\bin\Debug\AmazonReportDownloader.InstallLog
+   assemblypath = C:\Users\Abdelkarim\Dropbox\Odesk Projects\Gil Bar-Lev\AmazonReportDownloader\AmazonReportDownloader\bin\Debug\AmazonReportDownloader.exe

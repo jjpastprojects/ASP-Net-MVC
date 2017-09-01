@@ -1,0 +1,248 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background: #f1f3f6;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+/*input,
+select,
+textarea {
+    max-width: 280px;
+}*/
+.panel {
+    margin-left: 15px;
+}
+
+.panel-heading {
+    padding: 5px 15px;
+}
+
+.panel-body {
+    padding: 10px;
+}
+
+.body-content {
+    margin-top: 20px;
+}
+
+.row {
+    margin:10px 0;
+}
+
+.wrapper {
+    background: #f1f3f6;
+    border-left: 1px solid #e4e5e7;
+    min-height: 100%;
+    width: 100%;
+    height: 50%;
+    overflow: auto;
+}
+
+.row-no-padding > [class*="col-"] {
+    padding-right: 0 !important;
+    padding-left: 5px !important;
+}
+
+.panel-body select,input[type=text], input[type=number] {
+    padding-left: 5px;
+}
+
+.panel-body .form-control {
+    height: 30px;
+    padding-top: 5px;
+}
+
+.panel-body .form-label {
+    padding-top: 5px;
+}
+
+.dataTables_wrapper  td {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 200px;
+}
+
+.dataTables_wrapper thead {
+    background: white;
+}
+
+.dataTables_wrapper tr.odd {
+    background-color: #F9F9F9;
+}
+
+.dataTables_wrapper tbody tr:hover {
+    background-color: #F0F0F0;
+}
+
+.dataTables_wrapper  tr {
+    height: 32px;
+}
+
+.btn-sign-in {
+    width: 100px;
+    display: block;
+}
+
+.input-validation-error {
+    border: 1px #b94a48 solid;
+}
+
+.dataTables_wrapper thead th {
+    white-space: nowrap;
+}
+
+.dataTables_wrapper .col-sm-12 {
+    padding-right: 0px;
+}
+
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+
+.nav-tabs {
+    margin-bottom: 0;
+}
+
+.vendor-group {
+    position: relative;
+    margin: 15px 0;
+    padding: 14px 19px 14px;
+    border: 1px solid #ddd;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+label {
+    font-weight: normal;
+}
+
+.legend {
+    padding: 19px 19px 14px;
+}
+
+.legend:after {
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    padding: 3px 7px;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    color: #9da0a4;
+    -webkit-border-radius: 4px 0 4px 0;
+    -moz-border-radius: 4px 0 4px 0;
+    border-radius: 4px 0 4px 0;
+}
+
+.vendor-general-info:after {
+    content: "General Info";
+}
+
+.vendor-stocking:after {
+    content: "Stocking Guidlines";
+}
+
+.vendor-ranking:after {
+    content: "Vendor Ranking";
+}
+
+.vendor-btn-group {
+    text-align: right;
+}
+
+.vendor-btn-group button {
+    width: 80px;
+}
+
+.col-form-label {
+    padding-top: calc(.5rem - 1px * 2);
+    padding-bottom: calc(.5rem - 1px * 2);
+    margin-bottom: 0;
+}
+
+#vendor_details input[type=text],
+#stocking_info input[type=text]{
+    height: 28px;
+}
+
+#vendor_details input[type=checkbox],
+#stocking_info input[type=checkbox] {
+    margin-top: 7px;
+}
+
+.fileinput-button {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.fileinput-button input {
+        position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    opacity: 0;
+    -ms-filter: 'alpha(opacity=0)';
+    font-size: 200px !important;
+    direction: ltr;
+    cursor: pointer;
+}
+
+.no-padding {
+    padding: 0px;
+}
+
+.no-padding-left {
+    padding-left: 0px;
+}
+
+body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom{
+    margin-right: 0px;
+}
+
+.modal {
+    overflow: hidden;
+    overflow-y: hidden;
+}
+
+.modal .error-text {
+    color: #D9534F;
+}
+
+#scan_items_result_table_wrapper {
+    padding-left: 15px;
+}
+
+#main-menu.navbar-inverse .navbar-nav > .active > a:after {
+    content: "";
+    border-color: black transparent transparent transparent;
+    border-style: solid;
+    border-width: 10px;
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: -20px;
+    left: 20px;
+}
+

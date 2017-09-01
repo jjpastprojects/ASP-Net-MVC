@@ -1,0 +1,12 @@
+﻿INFO - OnStart
+INFO - Load Settings
+INFO - Enter Execute.
+INFO - OnStop
+INFO - OnStart
+INFO - Load Settings
+INFO - Enter Execute.
+INFO - OnStop
+INFO - OnStart
+INFO - Load Settings
+INFO - Enter Execute.
+INFO - Exit Execute

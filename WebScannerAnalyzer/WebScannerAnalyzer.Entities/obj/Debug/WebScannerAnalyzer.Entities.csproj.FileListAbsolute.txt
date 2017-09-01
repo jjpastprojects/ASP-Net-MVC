@@ -1,0 +1,4 @@
+E:\Sam\WebScannerAnalyzer\WebScannerAnalyzer.Entities\bin\Debug\WebScannerAnalzyer.Entities.dll
+E:\Sam\WebScannerAnalyzer\WebScannerAnalyzer.Entities\bin\Debug\WebScannerAnalzyer.Entities.pdb
+E:\Sam\WebScannerAnalyzer\WebScannerAnalyzer.Entities\obj\Debug\WebScannerAnalzyer.Entities.dll
+E:\Sam\WebScannerAnalyzer\WebScannerAnalyzer.Entities\obj\Debug\WebScannerAnalzyer.Entities.pdb

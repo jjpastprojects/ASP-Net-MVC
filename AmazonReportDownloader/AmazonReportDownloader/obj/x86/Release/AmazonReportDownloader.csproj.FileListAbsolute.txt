@@ -1,0 +1,16 @@
+E:\Sam\AmazonReportDownloader\AmazonReportDownloader\bin\Release\app.config
+E:\Sam\AmazonReportDownloader\AmazonReportDownloader\bin\Release\AmazonReportDownloader.exe.config
+E:\Sam\AmazonReportDownloader\AmazonReportDownloader\bin\Release\AmazonReportDownloader.exe
+E:\Sam\AmazonReportDownloader\AmazonReportDownloader\bin\Release\AmazonReportDownloader.pdb
+E:\Sam\AmazonReportDownloader\AmazonReportDownloader\bin\Release\Common.Logging.dll
+E:\Sam\AmazonReportDownloader\AmazonReportDownloader\bin\Release\log4net.dll
+E:\Sam\AmazonReportDownloader\AmazonReportDownloader\bin\Release\MarketplaceWebService.dll
+E:\Sam\AmazonReportDownloader\AmazonReportDownloader\bin\Release\Quartz.dll
+E:\Sam\AmazonReportDownloader\AmazonReportDownloader\bin\Release\log4net.xml
+E:\Sam\AmazonReportDownloader\AmazonReportDownloader\bin\Release\MarketplaceWebService.pdb
+E:\Sam\AmazonReportDownloader\AmazonReportDownloader\obj\x86\Release\AmazonReportDownloader.ProjectInstaller.resources
+E:\Sam\AmazonReportDownloader\AmazonReportDownloader\obj\x86\Release\AmazonReportDownloader.Service.resources
+E:\Sam\AmazonReportDownloader\AmazonReportDownloader\obj\x86\Release\AmazonReportDownloader.csproj.GenerateResource.Cache
+E:\Sam\AmazonReportDownloader\AmazonReportDownloader\obj\x86\Release\AmazonReportDownloader.exe
+E:\Sam\AmazonReportDownloader\AmazonReportDownloader\obj\x86\Release\AmazonReportDownloader.pdb
+E:\Sam\AmazonReportDownloader\AmazonReportDownloader\obj\x86\Release\AmazonReportDownloader.csprojResolveAssemblyReference.cache

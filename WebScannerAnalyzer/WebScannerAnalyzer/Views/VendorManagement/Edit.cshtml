@@ -1,0 +1,273 @@
+﻿@model WebScannerAnalyzer.Entities.Vendor
+
+@{
+    ViewBag.Title = "Vendor Details";
+}
+
+@section Scripts
+{
+    <script src="@Url.Content("~/Scripts/vendor-details.js")"></script>
+}
+
+<div class="container">
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        @Html.HiddenFor(model => model.VendorId)
+
+        <ul class="nav nav-tabs">
+            <li class="active">
+                <a data-toggle="tab" href="#vendor_details">Vendor Details</a>
+            </li>
+            <li>
+                <a data-toggle="tab" href="#stocking_info">Stocking Info</a>
+            </li>
+        </ul>
+
+        <div class="tab-content">
+        <div id="vendor_details" class="tab-pane active">
+            <div class="vendor-group legend vendor-general-info">
+                <div class="form-group row">
+                    <label class="col-sm-2 col-form-label" for="vendor_name">Vendor Name:</label>
+                    <div class="col-sm-4">
+                        @Html.EditorFor(model => model.VendorName, new {htmlAttributes = new {@class = "form-control", @id = "vendor_name"}})
+                    </div>
+
+                    <label class="col-sm-2 col-form-label" for="contact_person">Contact Name:</label>
+                    <div class="col-sm-4">
+                        @Html.EditorFor(model => model.ContactPerson, new {htmlAttributes = new {@class = "form-control", @id = "contact_person"}})
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label class="col-sm-2 col-form-label" for="street_address">Street Address:</label>
+                    <div class="col-sm-4">
+                        @Html.EditorFor(model => model.StreetAddress, new {htmlAttributes = new {@class = "form-control", @id = "street_address"}})
+                    </div>
+
+                    <label class="col-sm-2 col-form-label" for="optional_address">Optional Address:</label>
+                    <div class="col-sm-4">
+                        @Html.EditorFor(model => model.OptionalAddress, new {htmlAttributes = new {@class = "form-control", @id = "optional_address"}})
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label class="col-sm-2 col-form-label" for="city">City:</label>
+                    <div class="col-sm-4">
+                        @Html.EditorFor(model => model.City, new {htmlAttributes = new {@class = "form-control", @id = "city"}})
+                    </div>
+
+                    <label class="col-sm-2 col-form-label" for="zip">Zip:</label>
+                    <div class="col-sm-4">
+                        @Html.EditorFor(model => model.Zip, new {htmlAttributes = new {@class = "form-control", @id = "zip"}})
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label class="col-sm-2 col-form-label" for="state">State:</label>
+                    <div class="col-sm-4">
+                        @Html.EditorFor(model => model.State, new {htmlAttributes = new {@class = "form-control", @id = "state"}})
+                    </div>
+
+                    <label class="col-sm-2 col-form-label" for="country">Country:</label>
+                    <div class="col-sm-4">
+                        @Html.EditorFor(model => model.Country, new {htmlAttributes = new {@class = "form-control", @id = "country"}})
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label class="col-sm-2 col-form-label" for="day_to_follow">Days to Follow:</label>
+                    <div class="col-sm-4">
+                        @Html.EditorFor(model => model.DaysToFollow, new {htmlAttributes = new {@class = "form-control", @id = "day_to_follow"}})
+                    </div>
+
+                    <label class="col-sm-2 col-form-label" for="is_drop_shipper">Is Drop Shipper:</label>
+                    <div class="col-sm-4">
+                        @Html.EditorFor(model => model.IsDropShipper, new {htmlAttributes = new {@class = "form-control", @id = "is_drop_shipper"}})
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label class="col-sm-2 col-form-label" for="email">Email:</label>
+                    <div class="col-sm-4">
+                        @Html.EditorFor(model => model.Email, new {htmlAttributes = new {@class = "form-control", @id = "email"}})
+                    </div>
+                </div>
+            </div>
+
+            <div class="vendor-group">
+                <div class="form-group row">
+                    <label class="col-sm-2 col-form-label" for="prefix">Prefix:</label>
+                    <div class="col-sm-4">
+                        @Html.EditorFor(model => model.Prefix, new {htmlAttributes = new {@class = "form-control", @id = "prefix"}})
+                    </div>
+
+                    <label class="col-sm-2 col-form-label" for="carrier">Carrier:</label>
+                    <div class="col-sm-4">
+                        @Html.EditorFor(model => model.Carrier, new {htmlAttributes = new {@class = "form-control", @id = "carrier"}})
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label class="col-sm-2 col-form-label" for="method">Method:</label>
+                    <div class="col-sm-4">
+                        @Html.EditorFor(model => model.Method, new {htmlAttributes = new {@class = "form-control", @id = "method"}})
+                    </div>
+
+                    <label class="col-sm-2 col-form-label" for="use_our_account">Ship on Our Account:</label>
+                    <div class="col-sm-1">
+                        @Html.EditorFor(model => model.UseOurAccount, new {htmlAttributes = new {@class = "form-control", @id = "use_our_account"}})
+                    </div>
+
+                    <label class="col-sm-1-5 col-form-label" for="can_prep">Can Prep:</label>
+                    <div class="col-sm-1-5">
+                        @Html.EditorFor(model => model.CanPrep, new { htmlAttributes = new { @class = "form-control", @id = "can_prep"}})
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label class="col-sm-2 col-form-label" for="inventory">Inventory From:</label>
+                    <div class="col-sm-4">
+                        @Html.EditorFor(model => model.InventoryFrom, new {htmlAttributes = new {@class = "form-control", @id = "inventory"}})
+                    </div>
+
+                    <label class="col-sm-2 col-form-label" for="ra_needed">Need RA for Rerturn:</label>
+                    <div class="col-sm-1">
+                        @Html.EditorFor(model => model.RANeeded, new {htmlAttributes = new {@class = "form-control", @id = "ra_needed"}})
+                    </div>
+
+                    <label class="col-sm-1-5 col-form-label" for="barcode_fee">Barcode Fee:</label>
+                    <div class="col-sm-1-5">
+                        @Html.EditorFor(model => model.BarcodeFee, new { htmlAttributes = new { @class = "form-control", @id = "barcode_fee", @type="number", @step="0.01", style = "Width:80px" } })
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label class="col-sm-2 col-form-label" for="process_with">Process With:</label>
+                    <div class="col-sm-4">
+                        @Html.EditorFor(model => model.ProcessWith, new {htmlAttributes = new {@class = "form-control", @id = "process_with"} })
+                    </div>
+
+                    <label class="col-sm-2 col-form-label" for="can_barcode">Can Barcode:</label>
+                    <div class="col-sm-1">
+                        @Html.EditorFor(model => model.CanBarcode, new {htmlAttributes = new {@class = "form-control", @id = "can_barcode"}})
+                    </div>
+
+                    <label class="col-sm-1-5 col-form-label" for="barcode_fee">Prep Fee:</label>
+                    <div class="col-sm-1-5">
+                        @Html.EditorFor(model => model.PrepFee, new { htmlAttributes = new { @class = "form-control", @id = "prep_fee", @type = "number", @step = "0.01", style = "Width:80px" } })
+                    </div>
+                </div>
+            </div>
+
+            <div class="vendor-group">
+                <div class="form-group row">
+                    <label class="col-sm-2 col-form-label" for="website">Website:</label>
+                    <div class="col-sm-10">
+                        @Html.EditorFor(model => model.WSURL, new {htmlAttributes = new {@class = "form-control", @id = "website"}})
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label class="col-sm-2 col-form-label" for="web_user">Username:</label>
+                    <div class="col-sm-4">
+                        @Html.EditorFor(model => model.WSUser, new {htmlAttributes = new {@class = "form-control", @id = "web_user"}})
+                    </div>
+
+                    <label class="col-sm-2 col-form-label" for="web_password">Password:</label>
+                    <div class="col-sm-4">
+                        @Html.EditorFor(model => model.WSPassword, new {htmlAttributes = new {@class = "form-control", @id = "web_password"}})
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label class="col-sm-2 col-form-label" for="ftp">FTP:</label>
+                    <div class="col-sm-10">
+                        @Html.EditorFor(model => model.FTPUrl, new {htmlAttributes = new {@class = "form-control", @id = "ftp"}})
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label class="col-sm-2 col-form-label" for="ftp_user">Username:</label>
+                    <div class="col-sm-4">
+                        @Html.EditorFor(model => model.FTPUser, new {htmlAttributes = new {@class = "form-control", @id = "ftp_user"}})
+                    </div>
+
+                    <label class="col-sm-2 col-form-label" for="ftp_password">Password:</label>
+                    <div class="col-sm-4">
+                        @Html.EditorFor(model => model.FTPPassword, new {htmlAttributes = new {@class = "form-control", @id = "ftp_password"}})
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label class="col-sm-2 col-form-label" for="instructions">Instruction:</label>
+                    <div class="col-sm-10">
+                        @Html.TextAreaFor(model => model.Instructions, new {@rows = 3, @class = "form-control col-sm-12", @id = "instructions"})
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="stocking_info" class="tab-pane">
+            <div class="vendor-group legend vendor-stocking">
+                <div class="form-group row">
+                    <label class="col-sm-2 col-form-label" for="use_amazon">Will Use Amazon UPS Labels:</label>
+                    <div class="col-sm-4">
+                        @Html.EditorFor(model => model.WillUseAmazonUPSLabel, new {htmlAttributes = new {@class = "form-control", @id = "use_amazon"}})
+                    </div>
+
+                    <label class="col-sm-2 col-form-label" for="discount_program">Discount Program:</label>
+                    <div class="col-sm-4">
+                        @Html.EditorFor(model => model.DiscountProgram, new {htmlAttributes = new {@class = "form-control", @id = "discount_program"}})
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label class="col-sm-2 col-form-label" for="free_freight">Free Freight Program:</label>
+                    <div class="col-sm-10">
+                        @Html.EditorFor(model => model.FreeFreightProgram, new {htmlAttributes = new {@class = "form-control", @id = "free_freight"}})
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label class="col-sm-2 col-form-label" for="guidlines">General Guidlines:</label>
+                    <div class="col-sm-10">
+                        @Html.TextAreaFor(model => model.GeneralGuidlines, new {@rows = 5, @class = "form-control col-sm-12", @id = "guidlines"})
+                    </div>
+                </div>
+            </div>
+
+            <div class="vendor-group legend vendor-ranking">
+                <div class="form-group row">
+                    <label class="col-sm-2 col-form-label" for="time_to_ship">Avg. Lead Time to Ship:</label>
+                    <div class="col-sm-4">
+                        @Html.EditorFor(model => model.AvgLeadTimeToShip, new {htmlAttributes = new {@class = "form-control", @id = "time_to_ship", @type = "number"}})
+                    </div>
+
+                    <label class="col-sm-2 col-form-label" for="day_in_transit">Avg. Days in Transit:</label>
+                    <div class="col-sm-4">
+                        @Html.EditorFor(model => model.AvgDaysInTransit, new {htmlAttributes = new {@class = "form-control", @id = "day_in_transit", @type = "number"}})
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label class="col-sm-2 col-form-label" for="day_accept_goods">Avg. Days to Accept Goods:</label>
+                    <div class="col-sm-4">
+                        @Html.EditorFor(model => model.AvgDaysToAcceptGoods, new {htmlAttributes = new {@class = "form-control", @id = "day_accept_goods", @type = "number"}})
+                    </div>
+
+                    <label class="col-sm-2 col-form-label" for="day_order_to_sell">Total Days from Order to Sell:</label>
+                    <div class="col-sm-4">
+                        @Html.EditorFor(model => model.TotalDaysFromOrderToSell, new {htmlAttributes = new {@class = "form-control", @id = "day_order_to_sell", @type = "number"}})
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="form-group row vendor-btn-group">
+            <button type="submit" class="btn btn-success btn-default">Ok</button>
+            <button type="button"class="btn btn-default" id="cancel_button">Cancel</button>
+        </div>
+    }
+</div>

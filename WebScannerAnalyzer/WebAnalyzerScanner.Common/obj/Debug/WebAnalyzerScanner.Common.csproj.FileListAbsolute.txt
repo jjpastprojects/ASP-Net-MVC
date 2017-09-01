@@ -1,0 +1,7 @@
+E:\Sam\WebScannerAnalyzer\WebAnalyzerScanner.Common\bin\Debug\WebAnalyzerScanner.Common.dll
+E:\Sam\WebScannerAnalyzer\WebAnalyzerScanner.Common\bin\Debug\WebAnalyzerScanner.Common.pdb
+E:\Sam\WebScannerAnalyzer\WebAnalyzerScanner.Common\bin\Debug\log4net.dll
+E:\Sam\WebScannerAnalyzer\WebAnalyzerScanner.Common\bin\Debug\log4net.xml
+E:\Sam\WebScannerAnalyzer\WebAnalyzerScanner.Common\obj\Debug\WebAnalyzerScanner.Common.csprojResolveAssemblyReference.cache
+E:\Sam\WebScannerAnalyzer\WebAnalyzerScanner.Common\obj\Debug\WebAnalyzerScanner.Common.dll
+E:\Sam\WebScannerAnalyzer\WebAnalyzerScanner.Common\obj\Debug\WebAnalyzerScanner.Common.pdb

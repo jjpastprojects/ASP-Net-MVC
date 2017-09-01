@@ -1,0 +1,16 @@
+E:\Sam\AmazonReportDownloader\AmazonReportDownloader\bin\Debug\app.config
+E:\Sam\AmazonReportDownloader\AmazonReportDownloader\bin\Debug\AmazonReportDownloader.exe.config
+E:\Sam\AmazonReportDownloader\AmazonReportDownloader\bin\Debug\AmazonReportDownloader.exe
+E:\Sam\AmazonReportDownloader\AmazonReportDownloader\bin\Debug\AmazonReportDownloader.pdb
+E:\Sam\AmazonReportDownloader\AmazonReportDownloader\bin\Debug\Common.Logging.dll
+E:\Sam\AmazonReportDownloader\AmazonReportDownloader\bin\Debug\log4net.dll
+E:\Sam\AmazonReportDownloader\AmazonReportDownloader\bin\Debug\MarketplaceWebService.dll
+E:\Sam\AmazonReportDownloader\AmazonReportDownloader\bin\Debug\Quartz.dll
+E:\Sam\AmazonReportDownloader\AmazonReportDownloader\bin\Debug\log4net.xml
+E:\Sam\AmazonReportDownloader\AmazonReportDownloader\bin\Debug\MarketplaceWebService.pdb
+E:\Sam\AmazonReportDownloader\AmazonReportDownloader\obj\x86\Debug\AmazonReportDownloader.csprojResolveAssemblyReference.cache
+E:\Sam\AmazonReportDownloader\AmazonReportDownloader\obj\x86\Debug\AmazonReportDownloader.ProjectInstaller.resources
+E:\Sam\AmazonReportDownloader\AmazonReportDownloader\obj\x86\Debug\AmazonReportDownloader.Service.resources
+E:\Sam\AmazonReportDownloader\AmazonReportDownloader\obj\x86\Debug\AmazonReportDownloader.csproj.GenerateResource.Cache
+E:\Sam\AmazonReportDownloader\AmazonReportDownloader\obj\x86\Debug\AmazonReportDownloader.exe
+E:\Sam\AmazonReportDownloader\AmazonReportDownloader\obj\x86\Debug\AmazonReportDownloader.pdb

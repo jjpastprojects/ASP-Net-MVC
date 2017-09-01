@@ -1,0 +1,442 @@
+﻿INFO - OnStart
+INFO - Load Settings
+INFO - Enter Execute.
+INFO - Enter RequestReport
+INFO - Exit RequestReport
+INFO - Enter GetListOfAvailableReports
+INFO - Exit GetListOfAvailableReports
+INFO - Enter GetListOfAvailableReports
+INFO - Exit GetListOfAvailableReports
+INFO - Enter DownloadReport for report id: 5477624933
+INFO - Exit DownloadReport
+INFO - Enter ParseReportXml
+INFO - Enter ParseReportXml
+INFO - Enter UploadOrdersToDatabase
+INFO - Exit UploadOrdersToDatabase
+INFO - Enter AcknowledgeReport for report Id: 5477624933
+INFO - Exit AcknowledgeReport
+INFO - Exit Execute
+INFO - OnStop
+INFO - OnStart
+INFO - Load Settings
+INFO - Enter Execute.
+INFO - Enter RequestReport
+INFO - Exit RequestReport
+INFO - Enter GetListOfAvailableReports
+INFO - Exit GetListOfAvailableReports
+INFO - Enter GetListOfAvailableReports
+INFO - Exit GetListOfAvailableReports
+INFO - Enter GetListOfAvailableReports
+INFO - Exit GetListOfAvailableReports
+INFO - Enter GetListOfAvailableReports
+INFO - Exit GetListOfAvailableReports
+INFO - Enter DownloadReport for report id: 5477678693
+INFO - Exit DownloadReport
+INFO - Enter ParseReportXml
+INFO - Enter ParseReportXml
+INFO - Enter UploadOrdersToDatabase
+ERROR - Violation of PRIMARY KEY constraint 'PK_AmazonFulfillmentOrderItem'. Cannot insert duplicate key in object 'dbo.AmazonFulfillmentOrderItem'.
+The statement has been terminated.
+INFO - Enter UploadOrdersToDatabase
+ERROR - Violation of PRIMARY KEY constraint 'PK_AmazonFulfillmentOrderItem'. Cannot insert duplicate key in object 'dbo.AmazonFulfillmentOrderItem'.
+The statement has been terminated.
+INFO - Enter UploadOrdersToDatabase
+ERROR - Violation of PRIMARY KEY constraint 'PK_AmazonFulfillmentOrderItem'. Cannot insert duplicate key in object 'dbo.AmazonFulfillmentOrderItem'.
+The statement has been terminated.
+INFO - Enter UploadOrdersToDatabase
+ERROR - Violation of PRIMARY KEY constraint 'PK_AmazonFulfillmentOrderItem'. Cannot insert duplicate key in object 'dbo.AmazonFulfillmentOrderItem'.
+The statement has been terminated.
+INFO - Enter UploadOrdersToDatabase
+ERROR - Violation of PRIMARY KEY constraint 'PK_AmazonFulfillmentOrderItem'. Cannot insert duplicate key in object 'dbo.AmazonFulfillmentOrderItem'.
+The statement has been terminated.
+INFO - Enter UploadOrdersToDatabase
+ERROR - Violation of PRIMARY KEY constraint 'PK_AmazonFulfillmentOrderItem'. Cannot insert duplicate key in object 'dbo.AmazonFulfillmentOrderItem'.
+The statement has been terminated.
+INFO - Enter UploadOrdersToDatabase
+ERROR - Violation of PRIMARY KEY constraint 'PK_AmazonFulfillmentOrderItem'. Cannot insert duplicate key in object 'dbo.AmazonFulfillmentOrderItem'.
+The statement has been terminated.
+INFO - Enter UploadOrdersToDatabase
+ERROR - Violation of PRIMARY KEY constraint 'PK_AmazonFulfillmentOrderItem'. Cannot insert duplicate key in object 'dbo.AmazonFulfillmentOrderItem'.
+The statement has been terminated.
+INFO - Enter UploadOrdersToDatabase
+ERROR - Violation of PRIMARY KEY constraint 'PK_AmazonFulfillmentOrderItem'. Cannot insert duplicate key in object 'dbo.AmazonFulfillmentOrderItem'.
+The statement has been terminated.
+INFO - Enter UploadOrdersToDatabase
+INFO - Exit UploadOrdersToDatabase
+INFO - Enter AcknowledgeReport for report Id: 5477678693
+INFO - Exit AcknowledgeReport
+INFO - Exit Execute
+INFO - OnStop
+INFO - OnStart
+INFO - Load Settings
+INFO - Enter Execute.
+INFO - Enter RequestReport
+INFO - Exit RequestReport
+INFO - Enter GetListOfAvailableReports
+INFO - Exit GetListOfAvailableReports
+INFO - Enter GetListOfAvailableReports
+INFO - Exit GetListOfAvailableReports
+INFO - Enter GetListOfAvailableReports
+INFO - Exit GetListOfAvailableReports
+INFO - Enter DownloadReport for report id: 5477855153
+INFO - Exit DownloadReport
+INFO - Enter ParseReportXml
+INFO - Enter ParseReportXml
+INFO - Enter UploadOrdersToDatabase
+INFO - Exit UploadOrdersToDatabase
+INFO - Enter AcknowledgeReport for report Id: 5477855153
+INFO - Exit AcknowledgeReport
+INFO - Exit Execute
+INFO - OnStop
+INFO - OnStart
+INFO - Load Settings
+INFO - Debug
+INFO - Load Settings
+INFO - Enter Execute.
+INFO - Enter RequestReport
+INFO - Exit RequestReport
+INFO - Enter GetListOfAvailableReports
+INFO - Exit GetListOfAvailableReports
+INFO - Enter DownloadReport for report id: 6207887635017402
+INFO - Exit DownloadReport
+INFO - Debug
+INFO - Load Settings
+INFO - Enter Execute.
+INFO - Enter RequestReport
+INFO - Exit RequestReport
+INFO - Enter GetListOfAvailableReports
+INFO - Exit GetListOfAvailableReports
+INFO - Enter DownloadReport for report id: 6210763397017403
+INFO - Exit DownloadReport
+INFO - Enter ParseReportXml
+INFO - Enter ParseReportXml
+INFO - Enter UploadOrdersToDatabase
+INFO - Debug
+INFO - Load Settings
+INFO - Enter Execute.
+INFO - Enter RequestReport
+INFO - Exit RequestReport
+INFO - Enter GetListOfAvailableReports
+INFO - Exit GetListOfAvailableReports
+INFO - Enter DownloadReport for report id: 6210763397017403
+INFO - Exit DownloadReport
+INFO - Enter ParseReportXml
+INFO - Enter ParseReportXml
+INFO - Enter UploadOrdersToDatabase
+INFO - Debug
+INFO - Load Settings
+INFO - Enter Execute.
+INFO - Enter RequestReport
+INFO - Exit RequestReport
+INFO - Enter GetListOfAvailableReports
+INFO - Exit GetListOfAvailableReports
+INFO - Enter DownloadReport for report id: 6201666291017403
+INFO - Exit DownloadReport
+INFO - Enter ParseReportXml
+INFO - Enter ParseReportXml
+INFO - Enter UploadOrdersToDatabase
+INFO - Debug
+INFO - Load Settings
+INFO - Enter Execute.
+INFO - Enter RequestReport
+INFO - Exit RequestReport
+INFO - Enter GetListOfAvailableReports
+INFO - Exit GetListOfAvailableReports
+INFO - Enter DownloadReport for report id: 6204770199017403
+INFO - Exit DownloadReport
+INFO - Enter ParseReportXml
+INFO - Enter ParseReportXml
+INFO - Enter UploadOrdersToDatabase
+INFO - Debug
+INFO - Load Settings
+INFO - Enter Execute.
+INFO - Enter RequestReport
+INFO - Exit RequestReport
+INFO - Enter GetListOfAvailableReports
+INFO - Exit GetListOfAvailableReports
+INFO - Enter DownloadReport for report id: 6205800142017403
+INFO - Exit DownloadReport
+INFO - Enter ParseReportXml
+INFO - Enter ParseReportXml
+INFO - Enter UploadOrdersToDatabase
+INFO - Debug
+INFO - Load Settings
+INFO - Enter Execute.
+INFO - Enter RequestReport
+INFO - Exit RequestReport
+INFO - Enter GetListOfAvailableReports
+INFO - Exit GetListOfAvailableReports
+INFO - Enter DownloadReport for report id: 6206109551017403
+INFO - Exit DownloadReport
+INFO - Enter ParseReportXml
+INFO - Enter ParseReportXml
+INFO - Enter UploadOrdersToDatabase
+INFO - Exit UploadOrdersToDatabase
+INFO - Enter AcknowledgeReport for report Id: 6206109551017403
+INFO - Exit AcknowledgeReport
+INFO - Enter DownloadReport for report id: 6205800142017403
+INFO - Exit DownloadReport
+INFO - Enter ParseReportXml
+INFO - Enter ParseReportXml
+INFO - Enter UploadOrdersToDatabase
+INFO - Exit UploadOrdersToDatabase
+INFO - Enter AcknowledgeReport for report Id: 6205800142017403
+INFO - Exit AcknowledgeReport
+INFO - Enter DownloadReport for report id: 6204770199017403
+INFO - Exit DownloadReport
+INFO - Enter ParseReportXml
+INFO - Enter ParseReportXml
+INFO - Enter UploadOrdersToDatabase
+INFO - Exit UploadOrdersToDatabase
+INFO - Enter AcknowledgeReport for report Id: 6204770199017403
+INFO - Exit AcknowledgeReport
+INFO - Enter DownloadReport for report id: 6201666291017403
+INFO - Exit DownloadReport
+INFO - Enter ParseReportXml
+INFO - Enter ParseReportXml
+INFO - Enter UploadOrdersToDatabase
+INFO - Exit UploadOrdersToDatabase
+INFO - Enter AcknowledgeReport for report Id: 6201666291017403
+INFO - Exit AcknowledgeReport
+INFO - Enter DownloadReport for report id: 6210763397017403
+INFO - Exit DownloadReport
+INFO - Enter ParseReportXml
+INFO - Enter ParseReportXml
+INFO - Enter UploadOrdersToDatabase
+INFO - Exit UploadOrdersToDatabase
+INFO - Enter AcknowledgeReport for report Id: 6210763397017403
+INFO - Exit AcknowledgeReport
+INFO - Enter DownloadReport for report id: 6200777816017403
+INFO - Exit DownloadReport
+INFO - Enter ParseReportXml
+INFO - Enter ParseReportXml
+INFO - Enter UploadOrdersToDatabase
+INFO - Exit UploadOrdersToDatabase
+INFO - Enter AcknowledgeReport for report Id: 6200777816017403
+INFO - Exit AcknowledgeReport
+INFO - Enter DownloadReport for report id: 6207887635017402
+INFO - Debug
+INFO - Load Settings
+INFO - Enter Execute.
+INFO - Enter RequestReport
+INFO - Exit RequestReport
+INFO - Enter GetListOfAvailableReports
+INFO - Exit GetListOfAvailableReports
+INFO - Enter DownloadReport for report id: 6207782613017403
+INFO - Exit DownloadReport
+INFO - Enter ParseReportXml
+INFO - Enter ParseReportXml
+INFO - Enter UploadOrdersToDatabase
+INFO - Exit UploadOrdersToDatabase
+INFO - Enter AcknowledgeReport for report Id: 6207782613017403
+INFO - Exit AcknowledgeReport
+INFO - Enter DownloadReport for report id: 6207887635017402
+INFO - Exit DownloadReport
+INFO - Enter ParseReportXml
+INFO - Enter ParseReportXml
+INFO - Enter UploadOrdersToDatabase
+ERROR - Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+INFO - Enter UploadOrdersToDatabase
+ERROR - Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+INFO - Enter UploadOrdersToDatabase
+INFO - Debug
+INFO - Load Settings
+INFO - Enter Execute.
+INFO - Enter RequestReport
+INFO - Exit RequestReport
+INFO - Enter GetListOfAvailableReports
+INFO - Exit GetListOfAvailableReports
+INFO - Enter DownloadReport for report id: 6208566274017403
+INFO - Exit DownloadReport
+INFO - Enter ParseReportXml
+INFO - Enter ParseReportXml
+INFO - Enter UploadOrdersToDatabase
+INFO - Debug
+INFO - Load Settings
+INFO - Enter Execute.
+INFO - Enter RequestReport
+INFO - Exit RequestReport
+INFO - Enter GetListOfAvailableReports
+INFO - Exit GetListOfAvailableReports
+INFO - Enter DownloadReport for report id: 6209070420017403
+INFO - Exit DownloadReport
+INFO - Enter ParseReportXml
+INFO - Enter ParseReportXml
+INFO - Enter UploadOrdersToDatabase
+INFO - Exit UploadOrdersToDatabase
+INFO - Enter AcknowledgeReport for report Id: 6209070420017403
+INFO - Exit AcknowledgeReport
+INFO - Enter DownloadReport for report id: 6208566274017403
+INFO - Exit DownloadReport
+INFO - Enter ParseReportXml
+INFO - Enter ParseReportXml
+INFO - Debug
+INFO - Load Settings
+INFO - Enter Execute.
+INFO - Enter RequestReport
+INFO - Exit RequestReport
+INFO - Enter GetListOfAvailableReports
+INFO - Exit GetListOfAvailableReports
+INFO - Debug
+INFO - Load Settings
+INFO - Enter Execute.
+INFO - Enter RequestReport
+INFO - Exit RequestReport
+INFO - Enter GetListOfAvailableReports
+INFO - Exit GetListOfAvailableReports
+INFO - Enter DownloadReport for report id: 6211180154017403
+INFO - Exit DownloadReport
+INFO - Enter ParseReportXml
+INFO - Enter ParseReportXml
+INFO - Enter UploadOrdersToDatabase
+INFO - Exit UploadOrdersToDatabase
+INFO - Enter AcknowledgeReport for report Id: 6211180154017403
+INFO - Exit AcknowledgeReport
+INFO - Enter DownloadReport for report id: 6206294002017403
+INFO - Exit DownloadReport
+INFO - Enter ParseReportXml
+INFO - Enter ParseReportXml
+INFO - Enter UploadOrdersToDatabase
+INFO - Exit UploadOrdersToDatabase
+INFO - Enter AcknowledgeReport for report Id: 6206294002017403
+INFO - Exit AcknowledgeReport
+INFO - Enter DownloadReport for report id: 6208566274017403
+INFO - Exit DownloadReport
+INFO - Enter ParseReportXml
+INFO - Enter ParseReportXml
+INFO - Enter UploadOrdersToDatabase
+INFO - Exit UploadOrdersToDatabase
+INFO - Enter AcknowledgeReport for report Id: 6208566274017403
+INFO - Exit AcknowledgeReport
+INFO - Enter DownloadReport for report id: 6207887635017402
+INFO - Exit DownloadReport
+INFO - Enter ParseReportXml
+INFO - Enter ParseReportXml
+INFO - Enter UploadOrdersToDatabase
+ERROR - Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+INFO - Enter UploadOrdersToDatabase
+INFO - Exit UploadOrdersToDatabase
+INFO - Enter AcknowledgeReport for report Id: 6207887635017402
+INFO - Exit AcknowledgeReport
+INFO - Exit Execute
+INFO - Debug
+INFO - Load Settings
+INFO - Debug
+INFO - Load Settings
+INFO - Enter Execute.
+INFO - Enter RequestReport
+INFO - Exit RequestReport
+INFO - Enter GetListOfAvailableReports
+INFO - Exit GetListOfAvailableReports
+INFO - Enter DownloadReport for report id: 6204969221017403
+INFO - Exit DownloadReport
+INFO - Enter ParseReportXml
+INFO - Enter ParseReportXml
+INFO - Enter UploadOrdersToDatabase
+INFO - Exit UploadOrdersToDatabase
+INFO - Enter AcknowledgeReport for report Id: 6204969221017403
+INFO - Exit AcknowledgeReport
+INFO - Exit Execute
+INFO - Debug
+INFO - Load Settings
+INFO - Enter Execute.
+INFO - Enter RequestReport
+INFO - Exit RequestReport
+INFO - Enter GetListOfAvailableReports
+INFO - Exit GetListOfAvailableReports
+INFO - Enter DownloadReport for report id: 6207919980017403
+INFO - Exit DownloadReport
+INFO - Enter ParseReportXml
+INFO - Enter ParseReportXml
+INFO - Debug
+INFO - Load Settings
+INFO - Enter Execute.
+INFO - Debug
+INFO - Load Settings
+INFO - Enter Execute.
+INFO - Debug
+INFO - Load Settings
+INFO - Enter Execute.
+INFO - Debug
+INFO - Load Settings
+INFO - Enter Execute.
+INFO - Debug
+INFO - Load Settings
+INFO - Enter Execute.
+INFO - Debug
+INFO - Load Settings
+INFO - Enter Execute.
+INFO - Debug
+INFO - Load Settings
+INFO - Enter Execute.
+INFO - Debug
+INFO - Load Settings
+INFO - Enter Execute.
+INFO - Debug
+INFO - Load Settings
+INFO - Enter Execute.
+INFO - Debug
+INFO - Load Settings
+INFO - Enter Execute.
+INFO - Debug
+INFO - Load Settings
+INFO - Enter Execute.
+INFO - Debug
+INFO - Load Settings
+INFO - Enter Execute.
+INFO - Debug
+INFO - Load Settings
+INFO - Enter Execute.
+INFO - Debug
+INFO - Load Settings
+INFO - Enter Execute.
+INFO - Debug
+INFO - Load Settings
+INFO - Enter Execute.
+INFO - Exit Execute
+INFO - Debug
+INFO - Load Settings
+INFO - Enter Execute.
+INFO - Debug
+INFO - Load Settings
+INFO - Enter Execute.
+INFO - Exit Execute
+INFO - Debug
+INFO - Load Settings
+INFO - Enter Execute.
+INFO - Debug
+INFO - Load Settings
+INFO - Enter Execute.
+INFO - Exit Execute
+INFO - Debug
+INFO - Load Settings
+INFO - Enter Execute.
+INFO - Exit Execute
+INFO - Debug
+INFO - Load Settings
+INFO - Enter Execute.
+INFO - Debug
+INFO - Load Settings
+INFO - Enter Execute.
+INFO - Debug
+INFO - Load Settings
+INFO - Enter Execute.
+INFO - Debug
+INFO - Load Settings
+INFO - Enter Execute.
+INFO - Debug
+INFO - Load Settings
+INFO - Enter Execute.
+INFO - Exit Execute
+INFO - Debug
+INFO - Load Settings
+INFO - Enter Execute.
+INFO - Debug
+INFO - Load Settings
+INFO - Enter Execute.
+INFO - Debug
+INFO - Load Settings
+INFO - Enter Execute.
+INFO - Debug
+INFO - Load Settings
+INFO - Enter Execute.

@@ -1,0 +1,15 @@
+E:\Sam\WebScannerAnalyzer\WebScannerAnalyzer.BusinessLayer\bin\Debug\WebScannerAnalyzer.BusinessLayer.dll
+E:\Sam\WebScannerAnalyzer\WebScannerAnalyzer.BusinessLayer\bin\Debug\WebScannerAnalyzer.BusinessLayer.pdb
+E:\Sam\WebScannerAnalyzer\WebScannerAnalyzer.BusinessLayer\bin\Debug\WebAnalyzerScanner.Common.dll
+E:\Sam\WebScannerAnalyzer\WebScannerAnalyzer.BusinessLayer\bin\Debug\WebScannerAnalyzer.DataAccessLayer.dll
+E:\Sam\WebScannerAnalyzer\WebScannerAnalyzer.BusinessLayer\bin\Debug\WebScannerAnalyzer.Interfaces.dll
+E:\Sam\WebScannerAnalyzer\WebScannerAnalyzer.BusinessLayer\bin\Debug\WebScannerAnalzyer.Entities.dll
+E:\Sam\WebScannerAnalyzer\WebScannerAnalyzer.BusinessLayer\bin\Debug\log4net.dll
+E:\Sam\WebScannerAnalyzer\WebScannerAnalyzer.BusinessLayer\bin\Debug\WebAnalyzerScanner.Common.pdb
+E:\Sam\WebScannerAnalyzer\WebScannerAnalyzer.BusinessLayer\bin\Debug\WebScannerAnalzyer.Entities.pdb
+E:\Sam\WebScannerAnalyzer\WebScannerAnalyzer.BusinessLayer\bin\Debug\WebScannerAnalyzer.DataAccessLayer.pdb
+E:\Sam\WebScannerAnalyzer\WebScannerAnalyzer.BusinessLayer\bin\Debug\WebScannerAnalyzer.Interfaces.pdb
+E:\Sam\WebScannerAnalyzer\WebScannerAnalyzer.BusinessLayer\bin\Debug\log4net.xml
+E:\Sam\WebScannerAnalyzer\WebScannerAnalyzer.BusinessLayer\obj\Debug\WebScannerAnalyzer.BusinessLayer.csprojResolveAssemblyReference.cache
+E:\Sam\WebScannerAnalyzer\WebScannerAnalyzer.BusinessLayer\obj\Debug\WebScannerAnalyzer.BusinessLayer.dll
+E:\Sam\WebScannerAnalyzer\WebScannerAnalyzer.BusinessLayer\obj\Debug\WebScannerAnalyzer.BusinessLayer.pdb

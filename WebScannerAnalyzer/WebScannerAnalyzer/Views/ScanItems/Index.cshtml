@@ -1,0 +1,64 @@
+﻿@{
+    ViewBag.Title = "Scan Items";
+}
+
+@section Scripts
+{
+    <script src="@Url.Content("~/Scripts/scan-items.js")"></script>
+    <script src="@Url.Content("~/Scripts/DataTables/dataTables.buttons.js")"></script>
+    <script src="@Url.Content("~/Scripts/DataTables/jszip.js")"></script>
+    <script src="@Url.Content("~/Scripts/DataTables/buttons.html5.js")"></script>
+}
+
+<div class="row">
+    <div class="input-group col-sm-4">
+        <span class="input-group-addon">Market Places</span>
+        @Html.DropDownList("marketplaces", new SelectList(ViewBag.MarketPlaces, "Id", "DisplayName"),
+            new {@class = "form-control", @id = "market_dropdown"})
+    </div>
+
+    <div class="col-sm-8 text-left no-padding-left">
+        <span class="btn btn-success fileinput-button">
+            <span>Choose a file for uploading data</span>
+            <input type="file" accept=".txt" id="input_file"/>
+        </span>
+        @*<span class="btn btn-success fileinput-button">
+            <span>Choose a file for uploading data</span>
+            <input type="file" accept=".txt" id="input_file" />
+        </span>*@
+        @Html.ActionLink("Download Template","DownloadTemplate", "ScanItems", null, new { @class="btn btn-success"})
+    </div>
+</div>
+
+<div class="row text-right" id="buttons_container">
+</div>
+
+<div class="row">
+    <table id="scan_items_result_table" class="table table-striped table-bordered" cellspacing="0" width="100%">
+        <thead>
+        <tr>
+            <th>Input UPC</th>
+            <th>Input ManufName</th>
+            <th>Input ManufPart</th>
+            <th>Input Product Name</th>
+            <th>Output UPC</th>
+            <th>Output ManufName</th>
+            <th>Output ManufPart</th>
+            <th>Output Product Name</th>
+            <th>Asin</th>
+            <th>First Category</th>
+            <th>First Category Rank</th>
+            <th>Likes</th>
+            <th>Cost</th>
+            <th>Sales Value</th>
+            <th>Profit</th>
+            <th>BB-Price</th>
+            <th>BB-Shipping</th>
+            <th>BB-Delivered</th>
+            <th>Seller</th>
+            <th>Amazone Shipping Weight</th>
+            <th>Shipping Weight</th>
+        </tr>
+        </thead>
+    </table>
+</div>

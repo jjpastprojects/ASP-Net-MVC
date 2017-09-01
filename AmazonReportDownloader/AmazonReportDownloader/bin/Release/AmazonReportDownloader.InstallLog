@@ -1,0 +1,45 @@
+﻿Installing assembly 'E:\Sam\AmazonReportDownloader\AmazonReportDownloader\bin\Release\AmazonReportDownloader.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Sam\AmazonReportDownloader\AmazonReportDownloader\bin\Release\AmazonReportDownloader.InstallLog
+   assemblypath = E:\Sam\AmazonReportDownloader\AmazonReportDownloader\bin\Release\AmazonReportDownloader.exe
+Installing service AmazonReportService...
+Creating EventLog source AmazonReportService in log Application...
+Rolling back assembly 'E:\Sam\AmazonReportDownloader\AmazonReportDownloader\bin\Release\AmazonReportDownloader.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Sam\AmazonReportDownloader\AmazonReportDownloader\bin\Release\AmazonReportDownloader.InstallLog
+   assemblypath = E:\Sam\AmazonReportDownloader\AmazonReportDownloader\bin\Release\AmazonReportDownloader.exe
+Restoring event log to previous state for source AmazonReportService.
+An exception occurred during the Rollback phase of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+An exception occurred during the Rollback phase of the installation. This exception will be ignored and the rollback will continue. However, the machine might not fully revert to its initial state after the rollback is complete.
+Installing assembly 'E:\Sam\AmazonReportDownloader\AmazonReportDownloader\bin\Release\AmazonReportDownloader.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Sam\AmazonReportDownloader\AmazonReportDownloader\bin\Release\AmazonReportDownloader.InstallLog
+   assemblypath = E:\Sam\AmazonReportDownloader\AmazonReportDownloader\bin\Release\AmazonReportDownloader.exe
+Installing service AmazonReportService...
+Creating EventLog source AmazonReportService in log Application...
+Rolling back assembly 'E:\Sam\AmazonReportDownloader\AmazonReportDownloader\bin\Release\AmazonReportDownloader.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Sam\AmazonReportDownloader\AmazonReportDownloader\bin\Release\AmazonReportDownloader.InstallLog
+   assemblypath = E:\Sam\AmazonReportDownloader\AmazonReportDownloader\bin\Release\AmazonReportDownloader.exe
+Restoring event log to previous state for source AmazonReportService.
+An exception occurred during the Rollback phase of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+An exception occurred during the Rollback phase of the installation. This exception will be ignored and the rollback will continue. However, the machine might not fully revert to its initial state after the rollback is complete.
+Installing assembly 'E:\Sam\AmazonReportDownloader\AmazonReportDownloader\bin\Release\AmazonReportDownloader.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Sam\AmazonReportDownloader\AmazonReportDownloader\bin\Release\AmazonReportDownloader.InstallLog
+   assemblypath = E:\Sam\AmazonReportDownloader\AmazonReportDownloader\bin\Release\AmazonReportDownloader.exe
+Installing service AmazonReportService...
+Service AmazonReportService has been successfully installed.
+Creating EventLog source AmazonReportService in log Application...
+Committing assembly 'E:\Sam\AmazonReportDownloader\AmazonReportDownloader\bin\Release\AmazonReportDownloader.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Sam\AmazonReportDownloader\AmazonReportDownloader\bin\Release\AmazonReportDownloader.InstallLog
+   assemblypath = E:\Sam\AmazonReportDownloader\AmazonReportDownloader\bin\Release\AmazonReportDownloader.exe

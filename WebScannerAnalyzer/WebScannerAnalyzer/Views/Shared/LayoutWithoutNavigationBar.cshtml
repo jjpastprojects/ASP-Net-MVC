@@ -1,0 +1,32 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>@ViewBag.Title - Web Scanner Analyer</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+<div class="wrapper">
+    <div class="container-fluid body-content">
+        @RenderBody()
+    </div>
+</div>
+
+@Scripts.Render("~/bundles/jquery")
+@Scripts.Render("~/bundles/jqueryval")
+@Scripts.Render("~/bundles/bootstrap")
+@Scripts.Render("~/bundles/site")
+@RenderSection("scripts", required: false)
+</body>
+</html>
+
+<script type="text/javascript">
+    siteRoot = '@Request.ApplicationPath';
+    if (!siteRoot.endsWith('/'))
+        siteRoot += '/';
+</script>

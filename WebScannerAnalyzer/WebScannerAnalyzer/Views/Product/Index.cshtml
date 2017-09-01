@@ -1,0 +1,138 @@
+﻿
+@{
+    ViewBag.Title = "Analysis";
+}
+
+@section Scripts
+{
+    <script src="@Url.Content("~/Scripts/product-search.js")"></script>
+}
+
+<div class="row">
+    <div class="panel panel-default">
+        <div class="panel-heading">&nbsp;</div>
+
+        <div class="panel-body">
+            <div class="col-sm-4 text-right">
+                <div class="row row-no-padding">
+                    <div class="col-sm-5">
+                        <label class="form-label">Vendor</label>
+                    </div>
+                    <div class="col-sm-7">
+                        @Html.DropDownList("vendor", new SelectList(ViewBag.VendorNameList, "VendorId", "VendorName"), 
+                       new {@class="col-lg-12 form-control", @id="vendor_dropdown"})
+                    </div>
+                </div>
+                <div class="row row-no-padding">
+                    <div class="col-sm-5">
+                        <label class="form-label">Min profit</label>
+                    </div>
+                    <div class="col-sm-7">
+                        <input type="text" class="col-lg-12 form-control" value="0.01" id="min_profit_textbox"/>
+                    </div>
+                </div>
+                <div class="row row-no-padding">
+                    <div class="col-sm-5">
+                        <label class="form-label">Min profit in %</label>
+                    </div>
+                    <div class="col-sm-7">
+                        <input type="text" class="col-lg-12 form-control" value="0" id="min_profit_percent_textbox" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4 text-right">
+                <div class="row row-no-padding">
+                    <div class="col-sm-5">
+                        <label class="form-label">Description Like</label>
+                    </div>
+                    <div class="col-sm-7">
+                        <input type="text" class="col-lg-12 form-control" value="%" id="description_textbox" />
+                    </div>
+                </div>
+                <div class="row row-no-padding">
+                    <div class="col-sm-5">
+                        <label class="form-label">Discount Applied %</label>
+                    </div>
+                    <div class="col-sm-7">
+                        <input type="text" class="col-lg-12 form-control" value="0" id="discount_textbox" />
+                    </div>
+                </div>
+                <div class="row row-no-padding">
+                    <div class="col-sm-5">
+                        <label class="form-label">Record count</label>
+                    </div>
+                    <div class="col-sm-7">
+                        <input type="text" class="col-lg-12 form-control" value="150" id="limit_records_textbox" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4 text-right">
+                <div class="row row-no-padding">
+                    <div class="col-sm-5">
+                        <label class="form-label">Quantity in stock</label>
+                    </div>
+                    <div class="col-sm-7">
+                        <input type="text" class="col-lg-12 form-control" value="10" id="quantity_textbox"/>
+                    </div>
+                </div>
+                <div class="row row-no-padding">
+                    <div class="col-sm-5">
+                        <label class="form-label">Cost to bring over</label>
+                    </div>
+                    <div class="col-sm-7">
+                        <input type="text" class="col-lg-12 form-control" value="0" id="cost_textbox"/>
+                    </div>
+                </div>
+                <div class="row row-no-padding">
+                    <div class="col-sm-5">
+                        <span>Is watch list</span>
+                    </div>
+                    <div class="col-sm-7 text-left">
+                        <input type="checkbox" id="watch_list_checkbox"/>
+                    </div>
+                </div>
+                <div class="row row-no-padding">
+                    <div class="col-sm-5">
+                        <label class="form-label">Sku Filter</label>
+                    </div>
+                    <div class="col-sm-7">
+                        <input type="text" class="col-lg-12 form-control" id="sku_textbox" />
+                    </div>
+                </div>
+                <div class="row row-no-padding">
+                    <button class="btn btn-success" id="search_button">Search</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <table id="product_search_result_table" class="table table-striped table-bordered" cellspacing="0" width="100%">
+        <thead>
+        <tr>
+            <th>Asin</th>
+            <th>SKU</th>
+            <th>Average Ranking</th>
+            <th>Quantity in Stock</th>
+            <th>Case pack</th>
+            <th>First category</th>
+            <th>First category rank</th>
+            <th>Likes</th>
+            <th>Cost</th>
+            <th>Sales value</th>
+            <th>Profit</th>
+            <th>BB-Price</th>
+            <th>BB-Shipping</th>
+            <th>BB-Delivered</th>
+            <th>Seller</th>
+            <th>Name</th>
+            <th>Amzone shipping weight</th>
+            <th>Shipping weight</th>
+            <th>Manufacture</th>
+        </tr>
+        </thead>
+    </table>
+</div>
